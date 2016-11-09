@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 using WsSOAP.Models;
 
 namespace WsSOAP.BBLL.interfaces {
-    public interface UsuarioService {
+    public interface UsuarioService 
+    {
         IList<Usuario> getAll();
         IList<Usuario> getAllNoBorrados();
         IList<Usuario> getAllBorrados();

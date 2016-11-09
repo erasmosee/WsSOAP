@@ -1,1 +1,1 @@
-﻿<%@ WebService Language="C#" CodeBehind="UsuarioServiceOld.asmx.cs" Class="WsSOAP.Service1Old" %>
+﻿<%@ WebService Language="C#" CodeBehind="UsuarioServiceOld.asmx.cs" Class="WcfBiblioteca.UsuarioServiceOld" %>
